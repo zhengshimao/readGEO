@@ -1,0 +1,11 @@
+Package: readGEO
+Title: Read GEO files
+Version: 0.0.0.9000
+Authors@R: 
+    person("Shimao", "Zheng", email = "zhengshimao007@163.com", role = c("aut", "cre"))
+Maintainer: Shimao Zheng <zhengshimao007@163.com>
+Description: Read GEO files quickly.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
