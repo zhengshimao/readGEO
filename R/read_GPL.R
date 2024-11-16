@@ -26,7 +26,7 @@
 #' the storage format used in the \code{AnnoProbe} package.
 #'
 #' @examplesIf FALSE
-#' f_soft <- "./inst/extdata/GSE106172/soft/GSE106172_family.soft.gz"
+#' f_soft <- system.file("extdata/GSE106172/soft","GSE106172_family.soft.gz",package = "readGEO")
 #' ids <- read_GPL(f_soft = f_soft, drop_na = TRUE, save_ids_only = TRUE)
 #' full_data <- read_GPL(f_soft = f_soft, save_ids_only = FALSE)
 #'

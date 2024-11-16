@@ -18,7 +18,8 @@
 #' clinical information, ensuring consistency.
 #'
 #' @examplesIf FALSE
-#' result <- read_matrix("./examples/GSE106172/matrix/GSE106172_series_matrix.txt.gz")
+#' f_matrix <- system.file("extdata/GSE106172/matrix","GSE106172_series_matrix.txt.gz",package = "readGEO")
+#' result <- read_GEOmatrix(f_matrix = f_matrix)
 #'
 #' @importFrom GEOquery getGEO
 #' @export
